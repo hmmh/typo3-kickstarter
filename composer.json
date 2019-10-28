@@ -1,0 +1,52 @@
+{
+    "name": "hmmh/typo3-kickstarter",
+    "license": "Quickly kick to start the development with local PHP and Sqlite",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hmmh - Cookie Crew",
+            "email": "jan.runte@hmmh.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-pdo": "*",
+        "ext-sqlite3": "*",
+        "helhum/dotenv-connector": "^2.1",
+        "typo3/cms-core": "^9.5",
+        "typo3/cms-beuser": "^9.5",
+        "typo3/cms-fluid-styled-content": "^9.5"
+    },
+    "require-dev": {
+        "typo3/cms-setup": "^9.5",
+        "helhum/typo3-console": "~5.7.2"
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "optimize-autoloader": true,
+        "process-timeout": 600,
+        "sort-packages": true
+    },
+    "extra": {
+        "typo3/cms": {
+            "cms-package-dir": "{$vendor-dir}/typo3/cms",
+            "web-dir": "public",
+            "app-dir": "private"
+        },
+        "helhum/dotenv-connector": {
+            "env-file": ".env"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": "typo3cms install:setup --force",
+        "post-update-cmd": "@migrate",
+        "post-package-install": "@migrate",
+        "post-package-uninstall": "@migrate",
+        "post-package-update": "@migrate",
+        "migrate": [
+            "typo3cms database:updateschema",
+            "typo3cms cache:flush"
+        ],
+        "server": "@php -S 127.0.0.1:8080 -t public"
+    }
+}
