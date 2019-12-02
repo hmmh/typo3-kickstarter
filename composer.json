@@ -40,7 +40,6 @@
     },
     "scripts": {
         "post-install-cmd": "typo3cms install:setup --force",
-        "post-update-cmd": "@migrate",
         "migrate": [
             "typo3cms database:updateschema",
             "typo3cms cache:flush"
