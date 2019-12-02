@@ -1,6 +1,7 @@
 {
     "name": "hmmh/typo3-kickstarter",
-    "license": "Quickly kick to start the development with local PHP and Sqlite",
+    "description": "Quickly kick to start the development with local PHP and Sqlite",
+    "license": "GPL-3.0",
     "type": "project",
     "authors": [
         {
