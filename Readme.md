@@ -12,7 +12,7 @@ Just feel free to copy databases and switch to your PHP versions easily.
 
 ---
 
-Have a look on [PHPBrew](https://github.com/phpbrew/phpbrew).
+Just have a look on [PHPBrew](https://github.com/phpbrew/phpbrew).
 
 
 Requirements
@@ -21,7 +21,7 @@ Requirements
 Applications:
 
 - PHP from 7.2
-- Graphicksmagick from 1.3
+- Graphicksmagick from 1.3 or
 - ImageMagick from 7.0
 
 
@@ -40,7 +40,11 @@ PHP Extensions:
 To start up
 -----------
 
-Just execute this small kick:
+Install the new project:
+
+    $ composer create-project hmmh/typo3-kickstarter
+    
+Then execute this small steps:
 
     $ composer install
     
