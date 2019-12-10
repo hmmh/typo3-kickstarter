@@ -45,7 +45,7 @@ Install the new project:
     
 Then execute this small steps:
 
-    $ composer setup
+    $ composer install
     
     ...
     
