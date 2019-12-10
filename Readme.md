@@ -41,11 +41,11 @@ To start up
 
 Install the new project:
 
-    $ composer create-project hmmh/typo3-kickstarter
+    $ composer create-project hmmh/typo3-kickstarter t3kick --no-scripts
     
 Then execute this small steps:
 
-    $ composer install
+    $ composer setup
     
     ...
     
