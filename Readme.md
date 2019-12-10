@@ -21,8 +21,7 @@ Requirements
 Applications:
 
 - PHP from 7.2
-- Graphicksmagick from 1.3 or
-- ImageMagick from 7.0
+- Graphicksmagick from 1.3 or ImageMagick from 7.0
 
 
 PHP Extensions:
