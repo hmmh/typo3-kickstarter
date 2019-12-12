@@ -16,7 +16,8 @@
         "helhum/dotenv-connector": "^2.1",
         "typo3/cms-core": "^9.5",
         "typo3/cms-beuser": "^9.5",
-        "typo3/cms-fluid-styled-content": "^9.5"
+        "typo3/cms-fluid-styled-content": "^9.5",
+        "typo3/cms-tstemplate": "^9.5"
     },
     "require-dev": {
         "typo3/cms-setup": "^9.5",
@@ -25,7 +26,7 @@
     "config": {
         "vendor-dir": "vendor",
         "optimize-autoloader": true,
-        "process-timeout": 600,
+        "process-timeout": 0,
         "sort-packages": true
     },
     "extra": {
