@@ -1,7 +1,7 @@
 TYPO3 Kickstarter
 =================
 
-This is a early first thrown for a quickly kick to start the development with local PHP and Sqlite.
+This is an early first throw for a quick start to development with local PHP and SQLite.
 
 - No need of a server instance.
 - No need of a database instance.
@@ -21,7 +21,7 @@ Requirements
 Applications:
 
 - PHP from 7.2
-- Graphicksmagick from 1.3 or ImageMagick from 7.0
+- Optional: Graphicksmagick from 1.3 or ImageMagick from 7.0
 
 
 PHP Extensions:
@@ -42,8 +42,11 @@ To start up
 Install the new project:
 
     $ composer create-project hmmh/typo3-kickstarter t3kick --no-scripts
-    
-Then execute this small steps:
+
+The `--no-scripts` flag is required because after the project is created, the official TYPO3 command events are
+executed first, and it breaks with a missing database connection.
+
+Then execute this small steps (dependencies are already installed):
 
     $ composer install
     

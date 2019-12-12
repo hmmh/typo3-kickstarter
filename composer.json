@@ -1,6 +1,14 @@
 {
     "name": "hmmh/typo3-kickstarter",
-    "description": "Quickly kick to start the development with local PHP and Sqlite",
+    "description": "Start developing quickly with local PHP and SQLite",
+    "keywords": [
+        "typo3",
+        "kickstart",
+        "sqlite",
+        "local",
+        "development",
+        "backend"
+    ],
     "license": "GPL-3.0",
     "type": "project",
     "authors": [
