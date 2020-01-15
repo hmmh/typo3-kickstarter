@@ -56,8 +56,8 @@ Then execute this small steps (dependencies are already installed):
     
 Now you can open your browser and start with:
 
-- Backend: https://127.0.0.1:8080/typo3/
-- Frontend: https://127.0.0.1:8080/
+- Backend: http://127.0.0.1:8080/typo3/
+- Frontend: http://127.0.0.1:8080/
 
 
 Backend:
