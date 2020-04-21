@@ -1,5 +1,5 @@
 /vendor/
-/private/
+/private/var/
 /public/
 composer.lock
 .idea
