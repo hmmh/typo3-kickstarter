@@ -68,8 +68,37 @@ Backend:
 
 Installed modules:
 
+- About
+- Administration panel
+- Backend log
 - Backend user
-
+- CSH Manual
+- Context Help
+- Dashboard (new!)
+- Frontennd login
+- File list
+- File metadata
+- FLUID styled content
+- Form builder
+- Import & Export
+- Information
+- Information (pageTSconfig)
+- Languages
+- Link validator
+- Low level
+- OpenDocs
+- Recycler
+- Redirects
+- Reports
+- SEO
+- System Notes
+- TYPO3 Editor
+- Typoscript Template
+- Versioning
+- View page
+- Wizard - Sort pages
+- Wizard - Create pages
+- Workspace
 ---
 
 Happy prototyping and testing!
