@@ -1,12 +1,11 @@
 base: 'http://127.0.0.1:8080/'
-baseVariants: {  }
 errorHandling: {  }
 languages:
   -
     title: English
     enabled: true
     languageId: 0
-    base: /en/
+    base: /
     typo3Language: default
     locale: en_US.UTF-8
     iso-639-1: en
@@ -16,4 +15,3 @@ languages:
     flag: us
 rootPageId: 1
 routes: {  }
-websiteTitle: ''
